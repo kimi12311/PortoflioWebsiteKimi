@@ -9,29 +9,29 @@ const projects = [
   {
     title: "ManageWise",
     summary:
-      "A corprate management app made to simplify the visualization of company data in a graphical way",
+      "A graphical database & employee management system built on top of ASP.NET and React, utilizing AI and Firebase Authentication + Azure SQL",
     image: "/managewise.png",
     tech: "Firebase, ASP.Net, React, Tailwind CSS, Azure, SQL, OpenAI",
     link: "https://managewisefrontend.azurewebsites.net/",
   },
   {
     title: "Soitta",
-    summary: "E Commerce website that sells software developed in C++",
-    image: "/Soitta.png",
-    tech: "C++",
+    summary: "E Commerce website developed with React (Typescript), that sells music software and samples.",
+    image: "/Soitta1.png",
+    tech: "React, Typescript, Tailwind CSS",
     link: "https://www.soitta.com/",
   },
   {
-    title: "AlgoVerb",
+    title: "Algorithmic Reverb",
     summary:
-      "An algorithmic room simulator for simulating acoustic spaces digitally",
+      "An algorithmic room simulator for simulating acoustic spaces digitally, using feedback delay networks and based on Schroeder Reverberators.",
     image: "/algoverb.png",
     tech: "C++",
     link: "https://github.com/kimi12311/AlgorithmicReverbTest",
   },
   {
     title: "2D Platformer",
-    summary: "A simple but artistic 2D platformer made with Unity",
+    summary: "A simple 2D platformer made in Unity, with a dialogue system and custom shaders.",
     image: "/game.gif",
     tech: "C#, Unity",
     link: "null",

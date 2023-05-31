@@ -22,6 +22,7 @@ const skills = [
   { skill: "REST APIs" },
   { skill: "Blazor" },
   { skill: "Test Driven Development" },
+  {skill: ".NET MAUI"},
   { skill: "Agile Work Methods" },
   { skill: "Docker" },
   { skill: "Webpack" },
@@ -54,22 +55,18 @@ const About = () => {
             <br />
             <p>
               I have several hobbies that keep me busy while I'm not
-              programming, these include: music production, gardening and coffee
-              making. I'm always looking for new and interesting topics to
-              explore and delve deep into.
+              programming, these include: music production and noodling with synthesizers.
+              I'm always looking for new passions and hobbies to explore and learn about.
+              I completed my education in Dubai and attended university where I specialized in Engineering and Physics, then promptly moved back to Sweden in 2021,
             </p>
             <br />
             <p>
-              It is my personal belief that nothing is ever finished. Everything
-              is a process and should remain ever evolving, as great artists say
-              'art is never finished, it is simply abandoned'. And coding in of
-              itself is an art form that evolves and mutates over time.
+              A great piece of software is never finished, it is only improved upon continually. Coding 
+              is an art form and a science all at once. 
             </p>
             <br />
             <p>
-              I strive to take my career and projects to new heights, learning
-              and taking every opportunity along the way. I hope that you will
-              one day join me on that journey.
+              I strive to take any project I work on to new heights, striving to create the most useful and well executed solutions I can. 
             </p>
             <div className="flex flex-row space-x-8">
               <Link href="https://github.com/kimi12311" target="_blank">

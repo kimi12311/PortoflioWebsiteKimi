@@ -50,8 +50,8 @@ const HeroSection = () => {
               Fullstack Developer{" "}
             </span>
             based in Uppsala, Sweden. {" "}
-            I&#39;m working towards building the systems of the future and designs that captivate. Previously a musician, I found a new 
-            passion in programming. Below, you&#39;ll find some of my projects and skills I&#39;ve developed throughout my journey in tech. 🚀
+            I&#39;m working towards building the systems of the future and designs that captivate users. Previously a musician, I found a new 
+            passion in programming. Below, you&#39;ll find some of my projects and the multitude of skills I&#39;ve developed throughout my journey in tech. 🚀
           </p>
           <Link
             to="projects"
