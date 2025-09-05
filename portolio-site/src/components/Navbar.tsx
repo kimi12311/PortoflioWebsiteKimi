@@ -115,6 +115,7 @@ const Navbar = () => {
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
+                    // @ts-ignore
                         variants={mobileMenuVariants}
                         initial="hidden"
                         animate="visible"

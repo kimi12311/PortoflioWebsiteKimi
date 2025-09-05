@@ -1,6 +1,5 @@
 "use client"
 
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { PROFILE_DATA } from '../constants';
@@ -42,6 +41,7 @@ const Hero = () => {
     >
       <motion.h1 
         className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold text-gray-100"
+        // @ts-ignore
         variants={itemVariants}
       >
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
@@ -50,6 +50,7 @@ const Hero = () => {
       </motion.h1>
       <motion.h2 
         className="mt-4 text-xl md:text-2xl font-semibold text-cyan-300 tracking-wider"
+        // @ts-ignore
         variants={itemVariants}
       >
         {title}
@@ -57,6 +58,7 @@ const Hero = () => {
       
       <motion.div 
         className="mt-8 flex justify-center items-center space-x-4 md:space-x-6 text-gray-400"
+        // @ts-ignore
         variants={itemVariants}
       >
         <div className="flex items-center space-x-2">
@@ -70,6 +72,7 @@ const Hero = () => {
       </motion.div>
       <motion.div
         className="mt-6 flex justify-center items-center space-x-6"
+        // @ts-ignore
         variants={itemVariants}
       >
         <a href={social.github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
