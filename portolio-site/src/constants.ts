@@ -53,6 +53,13 @@ export const PROJECTS_DATA: Project[] = [
         imageUrl: "/image.png",
         liveUrl: "https://www.virtualproposals.com/",
     },
+       {
+        title: "The Infinite Wiki",
+        description: "An infinite, generative wiki that provides infinite definitions for words, underneath all of that lies an ARG.",
+        tags: ["NextJs", "TypeScript", "Vercel", "AI Integration", "REST API", "CI/CD", "Github Actions"],
+        imageUrl: "/InfiniteWiki.png",
+        liveUrl: "https://infinite-wiki-alpha.vercel.app/",
+    },
     {
         title: "Interlude Piano",
         description: "Piano sampler instrument with creative effects and algorithmic sound stretching. Included are 3 different pianos with a physically modelled electric piano",
